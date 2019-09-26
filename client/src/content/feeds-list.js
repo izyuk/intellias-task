@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import Feed from './feed';
 
 class FeedsList extends Component {
@@ -7,6 +6,13 @@ class FeedsList extends Component {
     state = {
         feeds: []
     };
+
+    /**
+     * Format amount of views for video
+     *
+     * @param {Number}      views   current amount of views
+     * @returns {String}            formatted views. Ex. 1,200,000 equal to 1.2M
+     */
 
     formatViews = (views) => {
         let result = '';
@@ -20,6 +26,13 @@ class FeedsList extends Component {
         }
         return result;
     };
+
+    /**
+     * Getting list of feeds filtered by query
+     *
+     * @param {String}      filter      query param for feeds filtering
+     * @returns {Array}                 array of filtered feeds
+     */
 
     getFeeds = async (filter = null) => {
         let url = 'http://localhost:8000';

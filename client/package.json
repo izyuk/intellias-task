@@ -6,11 +6,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-player": "^1.13.0",
-    "react-redux": "6.0.0",
-    "react-scripts": "3.1.2",
-    "redux": "4.0.1",
-    "redux-api-middleware": "3.0.1",
-    "redux-thunk": "2.3.0"
+    "react-scripts": "3.1.2"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development --open ---hot"
@@ -28,7 +24,6 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "open-browser-webpack-plugin": "0.0.5",
-    "react-router-dom": "^5.0.1",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
