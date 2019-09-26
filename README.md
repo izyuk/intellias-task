@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before running scripts
+
+You should install all needed dependencies in root and client folders.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
